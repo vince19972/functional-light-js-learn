@@ -28,7 +28,7 @@ function uncurry(fn) {
 }
 
 // es6
-var uncurry =
+const uncurry =
   fn =>
       (...args) => {
           var ret = fn
