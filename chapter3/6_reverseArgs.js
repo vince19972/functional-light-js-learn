@@ -1,3 +1,8 @@
+const reverseArgs =
+  fn =>
+    (...args) =>
+      fn( ...args.reverse() )
+
 const partialRight =
   (fn, ...presetArgs) =>
     (...laterArgs) =>
